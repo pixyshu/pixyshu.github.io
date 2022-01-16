@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spring on Shuisheng Blog</title>
+    <link>https://pixyshu.github.io/tags/spring/</link>
+    <description>Recent content in spring on Shuisheng Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Dec 2021 14:00:00 +0000</lastBuildDate><atom:link href="https://pixyshu.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Boot整合Mybatis &#43; Swagger（Yapi）&#43; Redis &#43; Security （JWT）</title>
+      <link>https://pixyshu.github.io/2021/12/31/spring-combine-mybatis-swagger-redis-servurity/</link>
+      <pubDate>Fri, 31 Dec 2021 14:00:00 +0000</pubDate>
+      
+      <guid>https://pixyshu.github.io/2021/12/31/spring-combine-mybatis-swagger-redis-servurity/</guid>
+      <description>本文的主要记录，通过Spring Boot整合Mybatis、Swagger、Redis、Sercurity实现基本开发框架的搭建，然后通过实</description>
+    </item>
+    
+  </channel>
+</rss>
