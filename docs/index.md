@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: Shuisheng's blog
+heroText: 水生的网络日志
 tagline: 活在世上，无非想明白一些道理，遇见一些趣事，倘能如愿，便是成功。
 bannerBg: auto
 # actionText: 立刻进入 →
@@ -11,16 +11,16 @@ bannerBg: auto
 features: # 可选的
   - title: 知识库
     details: 前后端开发相关知识库
-    link: /web/ # 可选
+    link: /knowledge-library/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 技术文章
     details: 技术文档、教程、技巧、总结等文章
-    link: /technology/
+    link: /technology-article/
     imgUrl: /img/other.png
   - title: 生活杂记
     details: 观点感悟、读书笔记、随笔等
-    link: /ui/
-    imgUrl: /img/ui.png
+    link: /life-note/
+    imgUrl: /img/more.png
   
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
@@ -31,4 +31,4 @@ features: # 可选的
 
 
 <!-- 小熊猫 -->
-<img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;">
+<img src="https://cdn.jsdelivr.net/gh/pixyshu/picgo@main/image/20221120212833.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;">

@@ -22,25 +22,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     }
   },
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+  base: "/docs/",
 
   // 主题配置
   themeConfig: {
+
     // 导航配置
     nav: [
       { text: '首页', link: '/' },
       {
         text: '知识库',
-        link: '/technology/',
+        link: '/knowledge-library/',
         items: [
-          { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: '前言', link: '/pages/9a7ee40fc2322534' },
+          { text: 'Java核心', link: '/pages/7c4f75/' },
+          { text: '企业级开发', link: '/pages/9a7ee40fc2322534' },
+          { text: '数据库', link: '/pages/9a7ee40fc2322534' },
+          { text: '计算机基础', link: '/pages/9a7ee40fc2322534' },
+          { text: '求职面试', link: '/pages/9a7ee40fc2322534' },
         ],
       },
       {
         text: '技术文章',
-        link: '/technology/',
+        link: '/technology-article/',
         items: [
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
           { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
@@ -50,7 +54,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '生活杂记',
-        link: '/technology/',
+        link: '/life-note/',
         items: [
           { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
           { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
@@ -127,8 +131,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       // avatar: 'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
       avatar: 'img/logo.jpg',
-      name: '車轱辘',
-      slogan: '这里记录我的代码人生',
+      name: '水生',
+      slogan: '记录我的所思、所学、所想',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -163,8 +167,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
-        link: 'https://github.com/xugaoyi'
+        name: '水生',
+        link: 'https://github.com/pixyshu'
       }
     },
 
@@ -184,14 +188,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-    // [
-    //   'script',
-    //   {
-    //     'data-ad-client': 'ca-pub-7828333725993554',
-    //     async: 'async',
-    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-    //   },
-    // ], // 网站关联Google AdSense 与 html格式广告支持（你可以去掉）
   ],
 
   // 插件配置
