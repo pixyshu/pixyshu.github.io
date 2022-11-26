@@ -10,17 +10,17 @@ bannerBg: auto
 
 features: # 可选的
   - title: 知识库
-    details: 前后端开发相关知识库
+    details: 学习笔记、结构化知识等
     link: /knowledge-library/ # 可选
-    imgUrl: /img/web.png # 可选
+    imgUrl: /img/more.png # 可选
   - title: 技术文章
-    details: 技术文档、教程、技巧、总结等文章
+    details: 技术文档、教程、技巧、总结等
     link: /technology-article/
-    imgUrl: /img/other.png
+    imgUrl: /img/web.png
   - title: 生活杂记
     details: 观点感悟、读书笔记、随笔等
     link: /life-note/
-    imgUrl: /img/more.png
+    imgUrl: /img/other.png
   
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表

@@ -1,0 +1,138 @@
+{
+  "main": {
+    "id": "8dbad4d2fc6b5a9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a3900cfc252d9e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9aed03f735aa5da",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "95c55755059855c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b7d686640b61901",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da6d6932ee666e47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ceb53ad49aa94605",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "566b5a7671f55dee",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d1b5af5419b5707",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2cad71097cf34c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f1907cb0f63d029",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "daf2f65ab68daf39",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "896fe42cbaa5ae12",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d4d7e23ef2eac181",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "b9aed03f735aa5da",
+  "lastOpenFiles": [
+    "docs/01.知识库/03.企业级开发/01.Spring Boot开发/02.Spring Boot整合MyBatis.md",
+    "docs/01.知识库/03.企业级开发/01.Spring Boot开发/01.创建Maven父子项目.md",
+    "docs/01.知识库/03.企业级开发/01.Spring Boot开发/测试文件.md",
+    "README.MD"
+  ]
+}
